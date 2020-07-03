@@ -1,0 +1,272 @@
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  font-family: cursive;
+  opacity: 0.9;
+}
+
+li {
+  list-style: none;
+}
+
+.header-logo {
+  width: 60px;
+  height: 50px;
+  margin-top: 5px;
+  margin-left: 20px;
+  float: left;
+}
+
+.header-list {
+  float: left;
+}
+
+.header-list li {
+  float: left;
+  color: #fff;
+  padding: 5px 15px;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+  margin-right: 80px;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  margin-right: 80px;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+
+.main-body {
+  padding: 180px 0 100px 0;
+  background-image: url(https://cdnuploads.aa.com.tr/uploads/Contents/2020/04/30/thumbs_b_c_ea09f1a512beafd3a42455cf90530727.jpg?v=133044);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-family: cursive;
+  opacity: 0.9;
+}
+
+.content h2 {
+  opacity: 1;
+  font-size: 45px;
+  letter-spacing: 2px;
+}
+
+@keyframes example {
+  from {color: red;}
+  to {color: yellow;}
+}
+
+.content h3 {
+  opacity: 1;
+  font-size: 30px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+.content p {
+  opacity: 1;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.minyak-bumi {
+  background-color: #000;
+  margin-right: 10px;
+}
+
+.gas-bumi {
+  background-color: #000;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 15px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.mb {
+  margin-right: 5px;
+}
+
+footer {
+  height: 150px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  font-family: cursive;
+  opacity: 0.9;
+  float: left;
+}
+
+.footer-logo {
+  width: 60px;
+  height: 50px;
+  margin: 20px;
+  float: left;
+}
+
+.container h1 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.fa-facebook {
+  margin-right: 5px;
+}
+
+.facebook {
+  font-size: 15px;
+  background-color: #006266;
+  color: white;
+  padding: 5px 20px;
+  margin-top: 5px;
+}
+
+.fa-twitter {
+  margin-right: 5px;
+}
+
+.twitter {
+  font-size: 15px;
+  background-color: #006266;
+  color: white;
+  padding: 5px 20px;
+  margin-top: 5px;
+}
+
+.fa-instagram {
+  margin-right: 5px;
+}
+
+.instagram {
+  font-size: 15px;
+  background-color: #006266;
+  color: white;
+  padding: 5px 20px;
+  margin-bottom: 10px;
+}
+
+.fa-linkedin {
+  margin-right: 5px;
+}
+
+.linkedin {
+  font-size: 15px;
+  background-color: #006266;
+  color: white;
+  padding: 5px 20px;
+  margin-bottom: 10px;
+}
+
+.btn-wrapper p {
+  font-family: "Segoe UI Light";
+  font-weight: Bold;
+  color: white;
+  font-size: 8px;
+  padding-right: 20px;
+  margin-left: 5px;
+  margin-bottom: 1px;
+  margin-top: 1px;
+}
+
+@media (max-width: 1000px){
+
+.lessons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.lessons div {
+  flex: auto;
+  width:50%;
+}
+}
+
+@media (max-width: 670px){
+
+.lessons {
+  flex-direction: column;
+}
+
+.lessons div {
+  margin: 0 auto;
+}
+}
+
+.lesson-icon img {
+  width: 250px;
+  height: 200px;
+  margin-left: 60px;
+}
+
+.container h2 {
+  margin-left: 40px;
+  font-family: "Lucida Grande";
+}
+
+.lesson {
+  float: left;
+  width: 50%;
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 200px;
+  width: 100%;
+  color: black;
+  margin-left: 50px;
+  font-weight: bold;
+  font-family: "Lucida Grande";
+}
+
+.txt-contents {
+  width: 80%;
+  float: left;
+  display: inline-block;
+  margin-top: 40px;
+  font-size: 15px;
+  color: black;
+  margin-left: 50px;
+  font-family: "Lucida Grande";
+}
